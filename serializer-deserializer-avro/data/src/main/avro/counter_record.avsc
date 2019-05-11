@@ -1,0 +1,9 @@
+{"namespace": "com.nex3z.examples.kafka.data",
+ "type": "record",
+ "name": "CounterRecord",
+ "version": "1",
+ "fields": [
+     {"name": "name", "type": ["string", "null"]},
+     {"name": "count",  "type": "int"}
+ ]
+}
